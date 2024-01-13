@@ -1,7 +1,50 @@
 * {
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
-body{
-    font-family: 'Raleway', sans-serif;
+
+:root {
+    --color-primary: #08a6e4;
+    --color-primary-shadow: rgba(7, 172, 230, 0.16);
+    --color-redish: #fb3b64;
+    --color-green: #55dfb4;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-grey: #a5a5a5;
+    --color-light-grey: #f7f7f7;
+    --button-radius: 35px;
+    --font-raleway: "Raleway", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
+}
+
+/* NAV BAR */
+header {
+    width: 100%;
+    height: 70px;
+    padding: 0 136px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 6px var(--color-grey) ;
+}
+.logo{
+    color: var(--color-primary);
+    font-size: 32px;
+    font-weight: 400;
+    font-family: var(--font-raleway);
+}
+li {
+    padding: 28px 15px 28px 27px;
+}
+.nav-list {
+    font-size: 11px;
+    color: var(--color-grey);
+    text-transform: uppercase;
+    font-family: var(--font-open-sans);
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    column-gap: 65px;
+    
 }
