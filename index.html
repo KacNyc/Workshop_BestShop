@@ -4,19 +4,40 @@
     <meta charset="UTF-8">
     <title>BestShop</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a class="logo">BestShop</a>
-        <ul class="nav-list">
-            <li>why us</li>
-            <li>benefits</li>
-            <li>prices</li>
-            <li>contact</li>
-        </ul>
-    </header>
+<header class="header">
+    <div class="header__container container">
+        <a href="#" class="logo">BestShop</a>
+        <nav>
+            <ul class="header__nav">
+                <li class="nav__element">
+                    <a href="#why-us" class="nav__link">Why us</a>
+                </li>
+                <li class="nav__element">
+                    <a href="#benefits" class="nav__link">Benefits</a>
+                </li>
+                <li class="nav__element">
+                    <a href="#prices" class="nav__link">Prices</a>
+                </li>
+                <li class="nav__element">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section class="opening">
+    <div class="opening_content">
+        <h1 class="opening_header">sell more!</h1>
+        <p class="opening_text">Open shop on our platform and increase your sales</p>
+        <a href="#" class="btn btn--primary btn--large">Open your shop</a>
+    </div>
+    <img src="assets/Background.png" alt="" class="opening__image" />
+</section>
 </body>
 </html>
